@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}    
+
+body, html {
+    height: 100%;
+}
+
+  .flex-container {
+     display: flex;
+     flex-direction: column;
+     height: 100vh;
+     padding: 10px;
+     gap: 10px;
+     }
+
+     .principal {
+        background-color: aqua;
+        flex: 1;
+        padding: 10px;
+        display: flex; 
+        flex-direction: column;
+        gap: 30px;
+    }
+
+     .cabecalho {
+        background-color: green;
+        padding: 10px;
+        color: white;
+        text-align: center;
+     }
+
+     .menu-lateral {
+        background-color: orange;
+        width: 25%;
+        color: white;
+        padding: 10px;
+        gap: 10px
+     }
+
+     .conteudo {
+        display: flex;
+        flex: 1;
+        gap: 10px;
+     }
+    
+     .resumos {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+     }
+
+     .resumo {
+        background-color: crimson;
+        padding: 10px;
+        color: white;
+        flex: 1;
+        min-width: 100px;
+        border-radius: 10px;
+     }
+
+     .cards {
+       display: flex;
+       gap: 10px;
+       flex-wrap: wrap;
+     }
+
+     .card {
+        background-color: blueviolet;
+        padding: 10px;
+        flex: 1;
+        min-width: 100px;
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+     .rodape {
+        background-color: dimgrey;
+        padding: 10px;
+        color: white;
+        text-align: center;
+     }
